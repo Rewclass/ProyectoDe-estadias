@@ -8,7 +8,7 @@ function loadAnalisis(idCategoria) {
         6: 'parasitologia-table',
         // Puedes agregar más categorías aquí
     };
-
+    
     const tableId = tableIdMapping[idCategoria];
     const table = document.getElementById(tableId);
 
