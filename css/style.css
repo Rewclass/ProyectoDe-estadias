@@ -837,6 +837,8 @@
 
 .subtitle {
     position: relative;
+    color: #0560c2;
+    font-size: medium;
     /* Asegura que el pseudo-elemento se posicione en relación con este elemento */
 }
 
