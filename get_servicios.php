@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "InvesLab";
+$servername = "bvymmdarmwlsvlav1sgn-mysql.services.clever-cloud.com";
+$username = "uztpsvlbvj2bfj1l";
+$password = "9ZBnIKF5M3lgX7MnWXjU";
+$dbname = "bvymmdarmwlsvlav1sgn";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
