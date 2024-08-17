@@ -8,10 +8,12 @@ $dbname = "bvymmdarmwlsvlav1sgn";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Verificar conexión
+ 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
+} else {
+    echo "Conexión exitosa a la base de datos.<br>";
 }
-
 // Obtener el id_categoria del parámetro GET
 $id_categoria = intval($_GET['id_categoria']);
 
